@@ -1,0 +1,56 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toss-container {
+  height: 90%;
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+}
+
+.description {
+  font-family: 'Roboto';
+}
+
+.toss-result-img {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-weight: bold;
+  height: 28px;
+  margin: 20px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-count {
+  margin: 28px;
+  font-family: 'Roboto';
+}
